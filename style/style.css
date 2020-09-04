@@ -1,0 +1,128 @@
+body
+{
+    margin: 0;
+}
+
+#cabecalho
+{
+    margin: 0;
+    background-color: #59BFB3;
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#cabecalho h3{
+    color: #B373B3;
+    margin-left: 50px;
+}
+
+#cabecalho h3 a{
+    color: #B373B3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cabecalho h3 a:hover{
+    color: #100F0F;
+}
+
+#cabecalho ul{
+    list-style: none;
+}
+
+#cabecalho ul li{
+    display: inline;
+    
+}
+
+#cabecalho ul li a{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    color: #B373B3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cabecalho ul li a:hover{
+    color: #100F0F;
+}
+
+#descricao
+{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    background-color: #9ECBCB;
+}
+
+#descricao p{
+    padding: 35px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.destaque {
+    margin: 0;
+    background-color: #EBF6EE;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+ 
+    
+}
+
+.destaque .card{
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+
+.destaque .card img{
+    width: 200px;
+}
+
+.destaque .card p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #100F0F;
+}
+
+#rodape{
+    margin: 0;
+    background-color: #100F0F;
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;   
+}
+
+#rodape p{
+    color: #B373B3;
+    margin-left: 5px;
+}
+
+#rodape p #email{
+    color: #B373B3;
+}
+
+#rodape ul{
+    list-style: none;
+}
+
+#rodape ul li{
+    display: inline;
+    
+}
+
+#rodape ul li a{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
